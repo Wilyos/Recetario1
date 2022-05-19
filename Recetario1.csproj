@@ -67,10 +67,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fBibliografia.aspx" />
+    <Content Include="fingrediente.aspx" />
+    <Content Include="fmenu.aspx" />
     <Content Include="fReceta.aspx" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fBibliografia.aspx.cs">
+      <DependentUpon>fBibliografia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fBibliografia.aspx.designer.cs">
+      <DependentUpon>fBibliografia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fingrediente.aspx.cs">
+      <DependentUpon>fingrediente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fingrediente.aspx.designer.cs">
+      <DependentUpon>fingrediente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fmenu.aspx.cs">
+      <DependentUpon>fmenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fmenu.aspx.designer.cs">
+      <DependentUpon>fmenu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="fReceta.aspx.cs">
       <DependentUpon>fReceta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

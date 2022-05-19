@@ -13,6 +13,9 @@
         .auto-style2 {
             height: 23px;
         }
+        .auto-style3 {
+            height: 100px;
+        }
     </style>
 </head>
 <body>
@@ -25,7 +28,7 @@
                     </td>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtIdReceta" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -34,7 +37,7 @@
                     </td>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtNomreceta" runat="server" Width="350px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -43,16 +46,16 @@
                     </td>
                     <td class="auto-style2"></td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtLista" runat="server" Width="350px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td class="auto-style3">
                         <asp:Label ID="Label5" runat="server" Text="Receta:"></asp:Label>
                     </td>
-                    <td>&nbsp;</td>
-                    <td>
-                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style3">
+                        <asp:TextBox ID="txtReceta" runat="server" Height="60px" Width="350px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -61,7 +64,7 @@
                     </td>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtTeimpoEjecucion" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -77,7 +80,7 @@
                     </td>
                     <td class="auto-style2"></td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtUtenciliosEsp" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -93,7 +96,7 @@
                     </td>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtComentarioDes" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -109,7 +112,7 @@
                     </td>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtTiempoTotal" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -118,7 +121,7 @@
                     </td>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtTipoPlato" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -127,7 +130,7 @@
                     </td>
                     <td class="auto-style2"></td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtIngredientePrin" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -143,14 +146,14 @@
                     </td>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtPrecio" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>Comentario Personal:</td>
                     <td>&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtComentarioPer" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -158,7 +161,20 @@
                         <asp:Button ID="btnGuardar" runat="server" OnClick="btnGuardar_Click" Text="Guardar" />
                     </td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblresultado" runat="server"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Button ID="btnactualizar" runat="server" Text="Actualizar" OnClick="btnactualizar_Click" />
+                    </td>
+                    <td>
+                        <asp:Button ID="btnBorrar" runat="server" Text="Borrar" OnClick="btnBorrar_Click" />
+                    </td>
+                    <td>
+                        <asp:Button ID="btnConsultar" runat="server" Text="Consultar" OnClick="btnConsultar_Click" />
+                    </td>
                 </tr>
             </table>
         </div>

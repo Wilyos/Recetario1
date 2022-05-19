@@ -33,13 +33,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label IdReceta;
 
         /// <summary>
-        /// Control TextBox1.
+        /// Control txtIdReceta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtIdReceta;
 
         /// <summary>
         /// Control Label3.
@@ -51,13 +51,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control TextBox2.
+        /// Control txtNomreceta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtNomreceta;
 
         /// <summary>
         /// Control Label4.
@@ -69,13 +69,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Control TextBox3.
+        /// Control txtLista.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox txtLista;
 
         /// <summary>
         /// Control Label5.
@@ -87,13 +87,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Control TextBox4.
+        /// Control txtReceta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox txtReceta;
 
         /// <summary>
         /// Control Label6.
@@ -105,13 +105,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Control TextBox5.
+        /// Control txtTeimpoEjecucion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox txtTeimpoEjecucion;
 
         /// <summary>
         /// Control Label7.
@@ -132,13 +132,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// Control TextBox6.
+        /// Control txtUtenciliosEsp.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox txtUtenciliosEsp;
 
         /// <summary>
         /// Control Label9.
@@ -159,13 +159,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// Control TextBox7.
+        /// Control txtComentarioDes.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox txtComentarioDes;
 
         /// <summary>
         /// Control Label11.
@@ -186,13 +186,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label12;
 
         /// <summary>
-        /// Control TextBox8.
+        /// Control txtTiempoTotal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox txtTiempoTotal;
 
         /// <summary>
         /// Control Label13.
@@ -204,13 +204,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label13;
 
         /// <summary>
-        /// Control TextBox9.
+        /// Control txtTipoPlato.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox txtTipoPlato;
 
         /// <summary>
         /// Control Label1.
@@ -222,13 +222,13 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control TextBox10.
+        /// Control txtIngredientePrin.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10;
+        protected global::System.Web.UI.WebControls.TextBox txtIngredientePrin;
 
         /// <summary>
         /// Control Label14.
@@ -249,22 +249,22 @@ namespace Recetario1
         protected global::System.Web.UI.WebControls.Label Label15;
 
         /// <summary>
-        /// Control TextBox11.
+        /// Control txtPrecio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        protected global::System.Web.UI.WebControls.TextBox txtPrecio;
 
         /// <summary>
-        /// Control TextBox12.
+        /// Control txtComentarioPer.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox12;
+        protected global::System.Web.UI.WebControls.TextBox txtComentarioPer;
 
         /// <summary>
         /// Control btnGuardar.
@@ -274,5 +274,41 @@ namespace Recetario1
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnGuardar;
+
+        /// <summary>
+        /// Control lblresultado.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblresultado;
+
+        /// <summary>
+        /// Control btnactualizar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnactualizar;
+
+        /// <summary>
+        /// Control btnBorrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBorrar;
+
+        /// <summary>
+        /// Control btnConsultar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnConsultar;
     }
 }
