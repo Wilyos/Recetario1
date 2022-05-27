@@ -8,6 +8,7 @@ using CEntidad;
 using CNegocios;
 using System.Data;
 
+
 namespace Recetario1
 {
     public partial class fingrediente : System.Web.UI.Page
@@ -30,6 +31,8 @@ namespace Recetario1
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
             DataSet ds = new DataSet();
+            Console.WriteLine(txtIdingrediente.Text);
+            Console.WriteLine(txtNomIngrediente.Text);
             OEIngrediente.IdIngrediente = txtIdingrediente.Text;
             OEIngrediente.NomIngrediente = txtNomIngrediente.Text;
             OEIngrediente.Calorias = Convert.ToInt32(txtCalorias.Text);
@@ -72,20 +75,15 @@ namespace Recetario1
             {
                 lblRespuesta.Text = "No se  pudo eliminar  el Ingrediente";
             }
+            ClearControls();
         }
 
         protected void btnActualizar_Click(object sender, EventArgs e)
         {
-            DataSet ds = new DataSet();
-            OEIngrediente.IdIngrediente = txtIdingrediente.Text;
-            OEIngrediente.NomIngrediente = txtNomIngrediente.Text;
-            OEIngrediente.Calorias = Convert.ToInt32(txtCalorias.Text);
-            OEIngrediente.Cantidades = txtCantidades.Text;
-
-            if (ONInfoIngrediente.actualizarIngrediente(OEIngrediente))
-            {
-                lblRespuesta.Text = "Ingrediente actualizado";
-            }
+            txtIdingrediente.Text = "";
+            txtNomIngrediente.Text = "";
+            txtCalorias.Text = "";
+            txtCantidades.Text = "";
         }
     }
 }

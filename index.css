@@ -1,5 +1,5 @@
 body{
-    background-color: #362011;
+    background-color: #12437a;
 }
 
 .fuente{
@@ -7,4 +7,22 @@ body{
 }
 .fuente2{
     color: #F5934D;
+}
+
+.txt{
+    border-radius: 20px
+}
+
+table{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Mali', cursive;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.div1{
+    flex: content;
+    justify-content: center;
 }

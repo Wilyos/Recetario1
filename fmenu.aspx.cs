@@ -76,21 +76,17 @@ namespace Recetario1
             {
                 lblRespuesta.Text = "No se  pudo Eliminar El Menu";
             }
+            ClearControls();
+            
         }
 
         protected void btnActualizar_Click(object sender, EventArgs e)
         {
-            DataSet ds = new DataSet();
-            OEMenu.IdMenu = txtIdMenu.Text;
-            OEMenu.PrimerPlato = txtPrimerP.Text;
-            OEMenu.SegundoPlato = txtSegundoP.Text;
-            OEMenu.Postre = txtPostre.Text;
-            OEMenu.TipoMenu = txtTipoMenu.Text;
-
-            if (ONMenu.actualizarMenu(OEMenu))
-            {
-                lblRespuesta.Text = "Menu actualizado";
-            }
+            txtIdMenu.Text = "";
+            txtPrimerP.Text = "";
+            txtSegundoP.Text = "";
+            txtPostre.Text = "";
+            txtTipoMenu.Text = "";
         }
     }
 }

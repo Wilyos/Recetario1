@@ -74,20 +74,15 @@ namespace Recetario1
             {
                 lblrespuesta.Text = "No se  pudo eliminar  la bibliografia";
             }
+            ClearControls();
         }
 
         protected void btnActualizar_Click(object sender, EventArgs e)
         {
-            DataSet ds = new DataSet();
-            OEBiblio.IdBibliografia = txtIdBiblio.Text;
-            OEBiblio.NomReceta = txtNomReceta.Text;
-            OEBiblio.Fuente = txtFuente.Text;
-            OEBiblio.UbicacionFisica = txtUbicacion.Text;
-
-            if (ONBiblio.ActualizarBibliografia(OEBiblio))
-            {
-                lblrespuesta.Text = "Bibliografia Actualizada";
-            }
+            txtIdBiblio.Text = "";
+            txtNomReceta.Text = "";
+            txtFuente.Text = "";
+            txtUbicacion.Text = "";
         }
     }
 }

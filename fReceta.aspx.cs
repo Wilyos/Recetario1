@@ -59,23 +59,18 @@ namespace Recetario1
 
         protected void btnactualizar_Click(object sender, EventArgs e)
         {
-            DataSet ds = new DataSet();
-            OEReceta.IdReceta = txtIdReceta.Text;
-            OEReceta.NomReceta = txtNomreceta.Text;
-            OEReceta.ListaIngredientes1 = txtLista.Text;
-            OEReceta.ProcesoReceta = txtReceta.Text;
-            OEReceta.TiempoEjecucion = txtTeimpoEjecucion.Text;
-            OEReceta.UtenciliosEspeciales = txtUtenciliosEsp.Text;
-            OEReceta.ComentarioDescriptivo = txtComentarioDes.Text;
-            OEReceta.TiempoTotal = txtTiempoTotal.Text;
-            OEReceta.TipoPlato = txtTipoPlato.Text;
-            OEReceta.IngredientePpal = txtIngredientePrin.Text;
-            OEReceta.Precio = Convert.ToDouble(txtPrecio.Text);
-            OEReceta.ComentarioPersonal = txtComentarioPer.Text;
-            if (ONReceta.ActualizarReceta(OEReceta))
-            {
-                lblresultado.Text = "Receta Actualizada";
-            }
+            txtIdReceta.Text = "";
+            txtNomreceta.Text = "";
+            txtLista.Text = "";
+            txtReceta.Text = "";
+            txtTeimpoEjecucion.Text = "";
+            txtUtenciliosEsp.Text = "";
+            txtComentarioDes.Text = "";
+            txtTiempoTotal.Text = "";
+            txtTipoPlato.Text = "";
+            txtIngredientePrin.Text = "";
+            txtPrecio.Text = "";
+            txtComentarioPer.Text = "";
         }
 
         protected void btnConsultar_Click(object sender, EventArgs e)
@@ -116,6 +111,7 @@ namespace Recetario1
             {
                 lblresultado.Text = "No se  pudo Eliminar la receta";
             }
+            ClearControls();
         }
     }
 }
